@@ -1,0 +1,105 @@
+.logo
+{
+	border-radius: 15px;
+}
+span
+{
+	font-family: "Aharoni","Arial";
+	font-size: 45px;
+	font-weight: bold;
+}
+
+fieldset
+{
+	border-radius: 15px;
+}
+body
+{
+	color: white;
+	background-color: rgba(37, 48, 55, 255);
+	font-family: "Aharoni","Arial";
+}
+
+header
+{
+	align-items: center;
+	display: flex;
+	border-radius: 15px;
+	background-size: cover;
+	background-color: rgba(55, 66, 73, 255);
+	margin-bottom: 15px;
+}
+
+nav
+{
+	text-align: center;
+	background-color: rgba(55, 66, 73, 255);
+}
+
+
+section
+{
+	background-color: rgba(55, 66, 73, 255);
+	border-radius: 15px;
+}
+
+a
+{
+	font-weight: bold;
+	padding: 0px 40px;
+	color: white;
+	text-decoration: none;
+}
+
+table
+{
+	border: 2px solid #333;
+	border-radius: 15px;
+	background-color: rgba(55, 66, 73, 255);
+	overflow: hidden;
+}
+
+input[type="submit"], 
+input[type="reset"] 
+{
+    background-color: rgba(37, 48, 55, 255);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 5px;
+}
+
+input[type="submit"]:hover, 
+input[type="reset"]:hover
+{
+    opacity: 0.5;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="text"],
+input[type="tel"],
+input[type="number"]
+{
+    width: 100%; /* Hace que todos los inputs tengan el mismo ancho */
+	padding: 0px 8px;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+	box-sizing: border-box;
+}
+
+th
+{
+	border-radius: 15px;
+	padding: 0px 15px;
+	text-align: left;
+	background-color: rgba(37, 48, 55, 255);
+}
+h2
+{
+font-weight: bold;
+}
